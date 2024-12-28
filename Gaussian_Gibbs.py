@@ -4,7 +4,7 @@ from matplotlib import pyplot as plt
 # Numpy has Gaussian random number generator, so we don't use Box-Muller
 
 NITER = 10000
-A = [[1,0,1.0,1.0],
+A = [[1.0,1.0,1.0],
      [1.0,2.0,1.0],
      [1.0,1.0,2.0]]
 A = np.array(A)
